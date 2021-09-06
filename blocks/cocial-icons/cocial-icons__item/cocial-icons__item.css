@@ -1,0 +1,19 @@
+.cocial-icons__item {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 21px;
+}
+
+.cocial-icons__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 544px) {
+  .cocial-icons__item {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+  }
+}

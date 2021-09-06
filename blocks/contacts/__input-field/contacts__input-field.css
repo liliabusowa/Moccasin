@@ -1,0 +1,12 @@
+.contacts__input-field {
+  width: 100%;
+  display: block;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  color: #949494;
+  background-color: #f8f8f8;
+  border: none;
+}
+

@@ -1,0 +1,17 @@
+.button {
+  padding: 25px 28.84%;
+  border: none;
+  box-shadow: 0 4px 0 0 #b68500;
+  border-radius: 10px;
+  background-color: #ffbb01;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 544px) {
+  .button {
+    padding: 20.45px 37.53px 20.55px 36.47px;
+  }
+}

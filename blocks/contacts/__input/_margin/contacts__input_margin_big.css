@@ -1,0 +1,9 @@
+.contacts__input_margin_big {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__input_margin_big {
+    margin-bottom: 37px;
+  }
+}

@@ -1,0 +1,15 @@
+.contacts__phon {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__phon {
+    min-height: 51px;
+    width: 126px;
+    margin-bottom: 35px;
+  }
+}
+

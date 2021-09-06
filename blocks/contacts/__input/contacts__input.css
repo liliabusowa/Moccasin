@@ -1,0 +1,17 @@
+.contacts__input {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 25px 19px 24px;
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__input {
+    padding: 18px 22px;
+  }
+}

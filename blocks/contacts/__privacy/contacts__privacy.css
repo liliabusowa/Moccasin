@@ -1,0 +1,19 @@
+.contacts__privacy {
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #949494;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 820px) {
+  .contacts__privacy {
+    margin-top: 32px;
+    position: static;
+  }
+}

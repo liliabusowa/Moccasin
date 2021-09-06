@@ -1,0 +1,42 @@
+.hero__avatar {
+    margin: 0;
+    margin-top: 128px;
+    margin-left: 20px;
+    height: 362px;
+    width: 362px;
+    background-size: 100%;
+    border-radius: 50%;
+    border: 11px solid #fff;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 880px) {
+    .hero__avatar {
+        margin-top: 46px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero__avatar {
+        height: 300px;
+        width: 300px;
+        border: 6px solid #fff;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero__avatar {
+        height: 176px;
+        width: 176px;
+        border: 3px solid #fff;
+    }
+}
+
+@media screen and (max-width: 190px) {
+    .hero__avatar {
+        height: 120px;
+        width: 120px;
+        border: 3px solid #fff;
+    }
+}

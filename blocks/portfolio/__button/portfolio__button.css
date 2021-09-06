@@ -1,0 +1,19 @@
+.portfolio__button {
+  width: 120px;
+  height: 36px;
+  background-color: #ec1f46;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 130%;
+  margin-left: 30px;
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 320px) {
+  .portfolio__button {
+    width: 112px;
+    height: 32px;
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,17 @@
+.features {
+  margin: 0 auto;
+  background-color: #141f35;
+  padding-left: 13.125%;
+  padding-right: 13.125%;
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 544px) {
+  .features {
+    padding-left: 27px;
+    padding-right: 26px;
+    padding-top: 61px;
+    padding-bottom: 59px;
+  }
+}

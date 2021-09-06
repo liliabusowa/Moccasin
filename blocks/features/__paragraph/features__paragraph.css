@@ -1,0 +1,13 @@
+.features__paragraph {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 544px) {
+  .features__paragraph {
+    font-size: 14px;
+    line-height: 2;
+  }
+}

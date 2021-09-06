@@ -1,0 +1,14 @@
+.contacts__cocial {
+  width: 97.4%;
+  min-height: 76px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__cocial {
+    width: 126px;
+  }
+}

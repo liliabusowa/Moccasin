@@ -1,0 +1,30 @@
+.hero__text {
+    max-width: 390px;
+    margin: 0;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFF;   
+}
+
+@media screen and (max-width: 880px) {
+    .hero__text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero__text {
+        font-size: 14px;
+        line-height: 140%;
+    }
+}
+/*
+@media screen and (max-width: 860px) {
+    .hero__text {
+        margin-top: 15px;
+        text-align: center;
+    }
+}*/

@@ -1,0 +1,42 @@
+.hero__button {
+    border: 0;
+    height: 66px;
+    width: 300px;
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 108px;
+    background-color: #FFBB01;
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 130%;
+}
+
+@media screen and (max-width: 880px) {
+    .hero__button {
+        margin-top: 58px;
+        margin-bottom: 42px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero__button {
+        height: 44px;
+        width: 267px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero__button {
+        font-size: 10px;
+        height: 44px;
+        width: 90%;
+    }
+}

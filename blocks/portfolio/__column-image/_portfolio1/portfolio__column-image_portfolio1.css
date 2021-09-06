@@ -1,0 +1,5 @@
+.portfolio__column-image_portfolio1 {
+  background-image: linear-gradient(rgba(196, 196, 196, 0), #213E60), url(../../../../images/portfolio1.jpg);
+  border-radius: 6px;
+  height: 100%;
+}

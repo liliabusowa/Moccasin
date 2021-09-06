@@ -1,0 +1,13 @@
+.contacts__text_style_text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__text_style_text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

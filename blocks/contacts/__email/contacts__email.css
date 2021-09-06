@@ -1,0 +1,13 @@
+.contacts__email {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__email {
+    min-height: 50px;
+    width: 126px;
+  }
+}

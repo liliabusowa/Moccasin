@@ -1,0 +1,27 @@
+.contacts__form {
+  box-sizing: border-box;
+  width: 48.83%;
+  min-height: 456px;
+  padding: 47px 39px 61px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: -5px 5px 0 0 #ffc41d;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 820px) {
+  .contacts__form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .contacts__form {
+    padding: 38px 22px 48px;
+    margin-bottom: 53px;
+  }
+}

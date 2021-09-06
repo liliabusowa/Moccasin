@@ -1,0 +1,82 @@
+/* Подключаем нормалайз*/
+@import url(../vendor/normalize.css);
+
+/*Подлкючаем шрифт*/
+@import url(../vendor/fonts/roboto.css);
+
+/*Корневой контейнер*/
+@import url(../blocks/page/page.css);
+
+/*Стили переиспользуемых элементов*/
+@import url(../blocks/button/button.css);
+
+/*Стили секций и блоков*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/cocial-icons/cocial-icons.css);
+@import url(../blocks/cocial-icons/cocial-icons__item/cocial-icons__item.css);
+@import url(../blocks/cocial-icons/cocial-icons__image/cocial-icons__image.css);
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__block/hero__block.css);
+@import url(../blocks/hero/__description/hero__description.css);
+@import url(../blocks/hero/__avatar/hero__avatar.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__button/hero__button.css);
+
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__title/features__title.css);
+@import url(../blocks/features/__list/features__list.css);
+@import url(../blocks/features/__item/features__item.css);
+@import url(../blocks/features/__icon/features__icon.css);
+@import url(../blocks/features/__subtitle/features__subtitle.css);
+@import url(../blocks/features/__paragraph/features__paragraph.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__subtitle/portfolio__subtitle.css);
+@import url(../blocks/portfolio/__columns/portfolio__columns.css);
+@import url(../blocks/portfolio/__column/portfolio__column.css);
+@import url(../blocks/portfolio/__column-image/_portfolio1/portfolio__column-image_portfolio1.css);
+@import url(../blocks/portfolio/__column-image/_portfolio2/portfolio__column-image_portfolio2.css);
+@import url(../blocks/portfolio/__column-image/_portfolio3/portfolio__column-image_portfolio3.css);
+@import url(../blocks/portfolio/__column-image/portfolio__column-image.css);
+@import url(../blocks/portfolio/__description/portfolio__description.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__form/contacts__form.css);
+@import url(../blocks/contacts/__form-title/contacts__form-title.css);
+@import url(../blocks/contacts/__input/contacts__input.css);
+@import url(../blocks/contacts/__input/_margin/contacts__input_margin_small.css);/*Модификатор нижнего отступа для элемента ввода*/
+@import url(../blocks/contacts/__input/_margin/contacts__input_margin_big.css);/*Модификатор нижнего отступа для элемента ввода*/
+@import url(../blocks/contacts/__input-icon/contacts__input-icon.css);
+@import url(../blocks/contacts/__input-field/contacts__input-field.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__text_style/contacts__text_style_title.css);/*Единые стили для заголовков контактной информации*/
+@import url(../blocks/contacts/__text_style/contacts__text_style_text.css);/*Единые стили для содержимого контакной информации*/
+@import url(../blocks/contacts/__wrap-phon-email/contacts__wrap-phon-email.css);
+@import url(../blocks/contacts/__phon/contacts__phon.css);
+@import url(../blocks/contacts/__phon-title/contacts__phon-title.css);
+@import url(../blocks/contacts/__phon-text/contacts__phon-text.css);
+@import url(../blocks/contacts/__email/contacts__email.css);
+@import url(../blocks/contacts/__email-title/contacts__email-title.css);
+@import url(../blocks/contacts/__email-text/contacts__email-text.css);
+@import url(../blocks/contacts/__cocial/contacts__cocial.css);
+@import url(../blocks/contacts/__cocial-title.css/contacts__cocial-title.css);
+@import url(../blocks/contacts/__cocial-texts/contacts__cocial-texts.css);
+@import url(../blocks/contacts/__cocial-text/contacts__cocial-text.css);
+@import url(../blocks/contacts/__privacy/contacts__privacy.css);
+
+
+/*
+* {
+  outline: 1px solid green;
+}
+*/

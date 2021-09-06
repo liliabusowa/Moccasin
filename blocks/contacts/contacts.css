@@ -1,0 +1,19 @@
+.contacts {
+  /*margin: 0 auto;*/
+  background-color: #1b2944;
+  padding-left: 13.125%;
+  padding-right: 13.125%;
+  padding-top: 64px;
+  padding-bottom: 87px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 544px) {
+  .contacts {
+    padding-left: 27px;
+    padding-right: 25px;
+    padding-top: 63px;
+    padding-bottom: 50px;
+  }
+}
